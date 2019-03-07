@@ -1,0 +1,855 @@
+
+*** Running vivado
+    with args -log project.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source project.tcl
+
+
+****** Vivado v2018.2.2 (64-bit)
+  **** SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+  **** IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source project.tcl -notrace
+Command: synth_design -top project -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13156 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 412.441 ; gain = 97.867
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'project' [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'keypad4X4' [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/keypad4X4.sv:34]
+INFO: [Synth 8-6157] synthesizing module 'LUT4' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+	Parameter INIT bound to: 16'b1010101010101011 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4' (1#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+INFO: [Synth 8-6157] synthesizing module 'LUT2' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+	Parameter INIT bound to: 4'b0010 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2' (2#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3966]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (3#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3966]
+INFO: [Synth 8-6157] synthesizing module 'FDRE__parameterized0' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3966]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDRE__parameterized0' (3#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:3966]
+INFO: [Synth 8-6157] synthesizing module 'GND' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:4945]
+INFO: [Synth 8-6155] done synthesizing module 'GND' (4#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:4945]
+INFO: [Synth 8-6157] synthesizing module 'VCC' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:52076]
+INFO: [Synth 8-6155] done synthesizing module 'VCC' (5#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:52076]
+INFO: [Synth 8-6157] synthesizing module 'LUT3' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b10000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3' (6#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT6' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b1000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6' (7#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT5' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+	Parameter INIT bound to: 32'b10000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5' (8#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized0' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b0000000000000000100000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized0' (8#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized1' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized1' (8#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized0' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+	Parameter INIT bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized0' (8#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+INFO: [Synth 8-6157] synthesizing module 'LUT1' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25461]
+	Parameter INIT bound to: 2'b01 
+INFO: [Synth 8-6155] done synthesizing module 'LUT1' (9#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25461]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized0' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+	Parameter INIT bound to: 4'b0110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized0' (9#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized0' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b01111000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized0' (9#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized0' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+	Parameter INIT bound to: 16'b0111111110000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized0' (9#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized1' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+	Parameter INIT bound to: 32'b01111111111111111000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized1' (9#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized2' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b1111011011111111111111111111011011110000111100001111000011110000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized2' (9#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized1' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+	Parameter INIT bound to: 4'b1000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized1' (9#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized3' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b0111111111111111111111111111111110000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized3' (9#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized4' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b0111110111111111111111110111110100000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized4' (9#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized5' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b0111111111111111111111111111111111111111111111111111111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized5' (9#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'CARRY4' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:963]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (10#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:963]
+WARNING: [Synth 8-689] width (1) of port connection 'O' does not match port width (4) of module 'CARRY4' [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/keypad4X4.sv:534]
+WARNING: [Synth 8-350] instance 'count_reg[16]_i_1' of module 'CARRY4' requires 6 connections, but only 5 given [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/keypad4X4.sv:530]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized1' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b11111110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized1' (10#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized1' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+	Parameter INIT bound to: 16'b0111111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized1' (10#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized2' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+	Parameter INIT bound to: 16'b0010000010101010 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized2' (10#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized3' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+	Parameter INIT bound to: 16'b0010101000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized3' (10#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized2' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+	Parameter INIT bound to: 4'b1110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized2' (10#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+INFO: [Synth 8-6155] done synthesizing module 'keypad4X4' (11#1) [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/keypad4X4.sv:34]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:195]
+INFO: [Synth 8-6157] synthesizing module 'ClockDivider' [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:994]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (12#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:609]
+INFO: [Synth 8-6155] done synthesizing module 'ClockDivider' (13#1) [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:994]
+INFO: [Synth 8-6157] synthesizing module 'ClockDividerDirection' [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:1010]
+INFO: [Synth 8-6155] done synthesizing module 'ClockDividerDirection' (14#1) [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:1010]
+INFO: [Synth 8-6157] synthesizing module 'outputlogic' [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:518]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:532]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:533]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:534]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:535]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:539]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:540]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:541]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:542]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:545]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:546]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:547]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:548]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:551]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:552]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:553]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:554]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:557]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:558]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:559]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:560]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:565]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:566]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:567]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:568]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:571]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:572]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:573]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:574]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:577]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:578]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:579]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:580]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:583]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:584]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:585]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:586]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:589]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:590]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:591]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:592]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:597]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:598]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:599]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:600]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:603]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:604]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:605]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:606]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:609]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:610]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:611]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:612]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:615]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:616]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:617]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:618]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:621]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:622]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:623]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:624]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:629]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:630]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:631]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:632]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:635]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:636]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:637]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:638]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:641]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:642]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:643]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:644]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:647]
+WARNING: [Synth 8-6090] variable 'image_red_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:648]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:649]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:650]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:653]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:654]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:655]
+WARNING: [Synth 8-6090] variable 'image_blue_elevator' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:656]
+WARNING: [Synth 8-324] index 6 out of range [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:668]
+WARNING: [Synth 8-324] index 7 out of range [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:669]
+WARNING: [Synth 8-324] index 6 out of range [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:770]
+WARNING: [Synth 8-324] index 7 out of range [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:771]
+WARNING: [Synth 8-324] index 6 out of range [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:872]
+WARNING: [Synth 8-324] index 7 out of range [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:873]
+WARNING: [Synth 8-3848] Net image_blue[2] in module/entity outputlogic does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:518]
+WARNING: [Synth 8-3848] Net image_blue[3] in module/entity outputlogic does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:518]
+WARNING: [Synth 8-3848] Net image_blue[4] in module/entity outputlogic does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:518]
+WARNING: [Synth 8-3848] Net image_blue[5] in module/entity outputlogic does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:518]
+WARNING: [Synth 8-3848] Net image_blue[6] in module/entity outputlogic does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:518]
+WARNING: [Synth 8-3848] Net image_blue[7] in module/entity outputlogic does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:518]
+INFO: [Synth 8-6155] done synthesizing module 'outputlogic' (15#1) [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:518]
+INFO: [Synth 8-6157] synthesizing module 'display_8x8' [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/display_8X8.sv:34]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized3' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+	Parameter INIT bound to: 4'b0111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized3' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized2' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b10001111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized2' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized3' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b00101010 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized3' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT2__parameterized4' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+	Parameter INIT bound to: 4'b0001 
+INFO: [Synth 8-6155] done synthesizing module 'LUT2__parameterized4' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25495]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized4' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b00010100 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized4' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized4' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+	Parameter INIT bound to: 16'b0001010101000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized4' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized2' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+	Parameter INIT bound to: 32'b00010101010101010100000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized2' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized5' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b10111010 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized5' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized6' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b0001010101010101010101010101010101000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized6' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized5' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+	Parameter INIT bound to: 16'b1111111111111110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized5' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized6' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+	Parameter INIT bound to: 16'b0000000100000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized6' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized3' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+	Parameter INIT bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized3' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized6' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b00001000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized6' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized7' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b00000100 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized7' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized8' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b00000001 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized8' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized7' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b0000000100000000111111111111111100000001000000000000000100000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized7' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized9' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b10111000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized9' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized8' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b0000000100010001111111111111111111111111111111111111111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized8' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized9' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b1111111101111111111111111111111100000000100000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized9' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT3__parameterized10' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+	Parameter INIT bound to: 8'b10110100 
+INFO: [Synth 8-6155] done synthesizing module 'LUT3__parameterized10' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25533]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized7' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+	Parameter INIT bound to: 16'b1111011100001000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized7' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+INFO: [Synth 8-6157] synthesizing module 'LUT4__parameterized8' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+	Parameter INIT bound to: 16'b0000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'LUT4__parameterized8' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25575]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized4' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+	Parameter INIT bound to: 32'b11011111111111110010000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized4' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized10' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b1111111111111111111111111111111101010101011111111111111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized10' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized5' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+	Parameter INIT bound to: 32'b01011101111111111111111111111111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized5' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+INFO: [Synth 8-6157] synthesizing module 'LUT5__parameterized6' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+	Parameter INIT bound to: 32'b11111111111111111101010111111111 
+INFO: [Synth 8-6155] done synthesizing module 'LUT5__parameterized6' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25621]
+INFO: [Synth 8-6157] synthesizing module 'LUT6__parameterized11' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+	Parameter INIT bound to: 64'b1111111111111111111111111111111011111111111111101111111111111110 
+INFO: [Synth 8-6155] done synthesizing module 'LUT6__parameterized11' (15#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:25671]
+INFO: [Synth 8-6155] done synthesizing module 'display_8x8' (16#1) [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/display_8X8.sv:34]
+INFO: [Synth 8-6157] synthesizing module 'SevSeg_4digit' [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/SevSeg_4digit.sv:37]
+	Parameter N bound to: 18 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/SevSeg_4digit.sv:93]
+INFO: [Synth 8-6155] done synthesizing module 'SevSeg_4digit' (17#1) [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/SevSeg_4digit.sv:37]
+WARNING: [Synth 8-3848] Net image_green[0] in module/entity project does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:84]
+WARNING: [Synth 8-3848] Net image_green[1] in module/entity project does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:84]
+WARNING: [Synth 8-3848] Net image_green[2] in module/entity project does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:84]
+WARNING: [Synth 8-3848] Net image_green[3] in module/entity project does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:84]
+WARNING: [Synth 8-3848] Net image_green[4] in module/entity project does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:84]
+WARNING: [Synth 8-3848] Net image_green[5] in module/entity project does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:84]
+WARNING: [Synth 8-3848] Net image_green[6] in module/entity project does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:84]
+WARNING: [Synth 8-3848] Net image_green[7] in module/entity project does not have driver. [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:84]
+INFO: [Synth 8-6155] done synthesizing module 'project' (18#1) [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:23]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[2][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[2][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[3][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[3][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[4][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[4][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[5][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[5][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[6][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[6][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[7][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[7][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][7]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][6]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][5]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][4]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][3]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][2]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][7]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][6]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][5]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][4]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][3]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][2]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][7]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][6]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][5]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][4]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][3]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][2]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][7]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][6]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][5]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][4]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][3]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][2]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[6][7]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[6][6]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[6][5]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[6][4]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[6][3]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[6][2]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[6][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[6][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[7][7]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[7][6]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[7][5]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[7][4]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[7][3]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[7][2]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[7][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[7][0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 479.637 ; gain = 165.063
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 479.637 ; gain = 165.063
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 479.637 ; gain = 165.063
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/constrs_1/new/project.xdc]
+Finished Parsing XDC File [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/constrs_1/new/project.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/constrs_1/new/project.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/project_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/project_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 819.215 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 819.215 ; gain = 504.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 819.215 ; gain = 504.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 819.215 ; gain = 504.641
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "image_red_floor3" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_red_floor2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_red_floor1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_blue_elevator" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_blue_elevator" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_blue_elevator" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_blue_elevator" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:195]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:189]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:195]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.srcs/sources_1/new/project.sv:189]
+INFO: [Synth 8-5544] ROM "time2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "time1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "path" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "path" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "path" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "path" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "path" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nextstate" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nextstate" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "nextstate" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "stopWork" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "stopWork" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "stopWork" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 819.215 ; gain = 504.641
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 14    
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 8     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 113   
+	   3 Input     32 Bit        Muxes := 6     
+	   7 Input     32 Bit        Muxes := 3     
+	   5 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 8     
+	   6 Input     32 Bit        Muxes := 1     
+	  13 Input     32 Bit        Muxes := 2     
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 13    
+	   6 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 1     
+	   5 Input      6 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 6     
+	   5 Input      4 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 63    
+	   5 Input      3 Bit        Muxes := 5     
+	   5 Input      2 Bit        Muxes := 10    
+	   3 Input      2 Bit        Muxes := 18    
+	   4 Input      2 Bit        Muxes := 9     
+	   6 Input      2 Bit        Muxes := 3     
+	   8 Input      2 Bit        Muxes := 3     
+	  10 Input      2 Bit        Muxes := 3     
+	  12 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 37    
+	   7 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module project 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 14    
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 8     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 113   
+	   3 Input     32 Bit        Muxes := 6     
+	   7 Input     32 Bit        Muxes := 3     
+	   5 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 8     
+	   6 Input     32 Bit        Muxes := 1     
+	  13 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 5     
+	   6 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 63    
+	   5 Input      3 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 37    
+	   7 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 3     
+Module outputlogic 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 13    
+	   6 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   3 Input      6 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 1     
+	   5 Input      6 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 7     
+	   3 Input      2 Bit        Muxes := 18    
+	   4 Input      2 Bit        Muxes := 7     
+	   6 Input      2 Bit        Muxes := 3     
+	   8 Input      2 Bit        Muxes := 3     
+	  10 Input      2 Bit        Muxes := 3     
+	  12 Input      2 Bit        Muxes := 3     
+Module SevSeg_4digit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_red_floor1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_red_floor2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_red_floor3" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_blue_elevator" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_blue_elevator" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_blue_elevator" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "image_blue_elevator" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "O100" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "path" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "path" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "O100" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "path" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "path" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "direction" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "direction" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[2][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[2][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[3][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[3][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[4][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[4][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[5][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[5][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[6][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[6][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[7][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_red[7][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][7]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][6]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][5]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][4]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][3]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][2]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[2][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][7]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][6]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][5]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][4]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][3]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][2]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[3][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][7]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][6]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][5]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][4]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][3]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][2]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][1]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[4][0]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][7]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][6]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][5]
+WARNING: [Synth 8-3331] design outputlogic has unconnected port image_blue[5][4]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'direction_reg[2]' (FDRE) to 'direction_reg[3]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[3]' (FDRE) to 'direction_reg[4]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[4]' (FDRE) to 'direction_reg[5]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[5]' (FDRE) to 'direction_reg[6]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[6]' (FDRE) to 'direction_reg[7]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[7]' (FDRE) to 'direction_reg[8]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[8]' (FDRE) to 'direction_reg[9]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[9]' (FDRE) to 'direction_reg[10]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[10]' (FDRE) to 'direction_reg[11]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[11]' (FDRE) to 'direction_reg[12]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[12]' (FDRE) to 'direction_reg[13]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[13]' (FDRE) to 'direction_reg[14]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[14]' (FDRE) to 'direction_reg[15]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[15]' (FDRE) to 'direction_reg[16]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[16]' (FDRE) to 'direction_reg[17]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[17]' (FDRE) to 'direction_reg[18]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[18]' (FDRE) to 'direction_reg[19]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[19]' (FDRE) to 'direction_reg[20]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[20]' (FDRE) to 'direction_reg[21]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[21]' (FDRE) to 'direction_reg[22]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[22]' (FDRE) to 'direction_reg[23]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[23]' (FDRE) to 'direction_reg[24]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[24]' (FDRE) to 'direction_reg[25]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[25]' (FDRE) to 'direction_reg[26]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[26]' (FDRE) to 'direction_reg[27]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[27]' (FDRE) to 'direction_reg[28]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[28]' (FDRE) to 'direction_reg[29]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[29]' (FDRE) to 'direction_reg[30]'
+INFO: [Synth 8-3886] merging instance 'direction_reg[30]' (FDRE) to 'direction_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\direction_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\fourthdigit_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (direction_reg[31]) is unused and will be removed from module project.
+WARNING: [Synth 8-3332] Sequential element (fourthdigit_reg[3]) is unused and will be removed from module project.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 819.215 ; gain = 504.641
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 819.215 ; gain = 504.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 880.340 ; gain = 565.766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 884.688 ; gain = 570.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 884.688 ; gain = 570.113
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 884.688 ; gain = 570.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 884.688 ; gain = 570.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 884.688 ; gain = 570.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 884.688 ; gain = 570.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 884.688 ; gain = 570.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |   274|
+|3     |LUT1   |   137|
+|4     |LUT2   |   467|
+|5     |LUT3   |   474|
+|6     |LUT4   |    91|
+|7     |LUT5   |    77|
+|8     |LUT6   |   267|
+|9     |MUXF7  |     6|
+|10    |MUXF8  |     3|
+|11    |FDRE   |   472|
+|12    |IBUF   |     8|
+|13    |OBUF   |    29|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------+----------------------+------+
+|      |Instance              |Module                |Cells |
++------+----------------------+----------------------+------+
+|1     |top                   |                      |  2308|
+|2     |  keypad4X4_inst0     |keypad4X4             |    83|
+|3     |  display_8x8_0       |display_8x8           |   130|
+|4     |  SevSeg_4digit_inst0 |SevSeg_4digit         |    39|
+|5     |  clockModule         |ClockDivider          |    35|
+|6     |  directiontime       |ClockDividerDirection |    34|
++------+----------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 884.688 ; gain = 570.113
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 62 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 884.688 ; gain = 230.535
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 884.688 ; gain = 570.113
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 291 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'project' is not ideal for floorplanning, since the cellview 'project' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+232 Infos, 205 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 884.688 ; gain = 582.938
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.runs/synth_1/project.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file project_utilization_synth.rpt -pb project_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 884.688 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 24 00:52:43 2018...

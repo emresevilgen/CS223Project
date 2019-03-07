@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../project.srcs/sources_1/new/SevSeg_4digit.sv" \
+"../../../../project.srcs/sources_1/new/display_8X8.sv" \
+"../../../../project.srcs/sources_1/new/keypad4X4.sv" \
+"../../../../project.srcs/sources_1/new/project.sv" \
+"../../../../project.srcs/sim_1/new/testbench2.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

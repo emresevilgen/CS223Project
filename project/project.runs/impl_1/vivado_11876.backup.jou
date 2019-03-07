@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Mon Dec 24 00:52:50 2018
+# Process ID: 11876
+# Current directory: C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.runs/impl_1
+# Command line: vivado.exe -log project.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source project.tcl -notrace
+# Log file: C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.runs/impl_1/project.vdi
+# Journal file: C:/Google Drive/Lessons/University/3rd Semester/CS 223/Project/Project/project/project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source project.tcl -notrace
